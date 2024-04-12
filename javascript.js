@@ -1,5 +1,18 @@
 "use strict";
 
+// let x = 100 / "Apple";
+// alert(isNaN(x));
+
+// let x = NaN;
+// let y = 5;
+// let z = x + y;
+
+// alert(z)
+
+alert(typeof NaN)
+
+////
+
 // let x = 10;
 // let y = 20;
 // let z = x + y;
@@ -20,12 +33,12 @@
 // let y = 20;
 // let z = "The result is: " + x + y;
 
-let x = 10;
-let y = 20;
-let z = "30";
-let result = x + y + z;
+// let x = 10;
+// let y = 20;
+// let z = "30";
+// let result = x + y + z;
 
-alert(result);
+// alert(result);
 
 
 /////////////////
