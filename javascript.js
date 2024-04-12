@@ -1,13 +1,47 @@
 "use strict";
 
-let admin;
-let alias;
+// let x = 10;
+// let y = 20;
+// let z = x + y;
 
-alias = "John";
+// let x = "10";
+// let y = "20";
+// let z = x + y;
 
-admin = alias;
+// let x = 10;
+// let y = "20";
+// let z = x + y;
 
-alert(admin);
+// let x = "10";
+// let y = 20;
+// let z = x + y;
+
+// let x = 10;
+// let y = 20;
+// let z = "The result is: " + x + y;
+
+let x = 10;
+let y = 20;
+let z = "30";
+let result = x + y + z;
+
+alert(result);
+
+
+/////////////////
+// Javascript Variables
+/////////////////
+
+// let admin;
+// let alias;
+
+// alias = "John";
+
+// admin = alias;
+
+// alert(admin);
+
+////////
 
 // // Example of const for difficult to remember values, uppercase and underscored
 
