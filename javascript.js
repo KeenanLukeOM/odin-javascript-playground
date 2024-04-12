@@ -1,5 +1,12 @@
 "use strict";
 
+let myNumber = "74";
+myNumber += 3;
+
+typeof myNumber;
+
+////////
+
 // let x = 100 / "Apple";
 // alert(isNaN(x));
 
@@ -9,9 +16,9 @@
 
 // alert(z)
 
-alert(typeof NaN)
+// alert(typeof Infinity)
 
-////
+////////
 
 // let x = 10;
 // let y = 20;
