@@ -1,5 +1,15 @@
-let message = "Hello";
+let hello = "Hello world!";
 
-message = "World";
+let message;
 
+message = hello;
+
+alert(hello);
 alert(message);
+
+
+// let message = "Hello";
+
+// message = "World";
+
+// alert(message);
