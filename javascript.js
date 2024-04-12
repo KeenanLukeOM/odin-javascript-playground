@@ -1,15 +1,23 @@
 "use strict";
 
+let admin;
+let alias;
 
-// Example of const for difficult to remember values, uppercase and underscored
+alias = "John";
 
-const COLOR_RED = "#F00";
-const COLOR_GREEN = "#0F0";
-const COLOR_BLUE = "#00F";
-const COLOR_ORANGE = "#FF7F00";
+admin = alias;
 
-let color = COLOR_BLUE;
-alert(color);
+alert(admin);
+
+// // Example of const for difficult to remember values, uppercase and underscored
+
+// const COLOR_RED = "#F00";
+// const COLOR_GREEN = "#0F0";
+// const COLOR_BLUE = "#00F";
+// const COLOR_ORANGE = "#FF7F00";
+
+// let color = COLOR_BLUE;
+// alert(color);
 
 ////////
 
