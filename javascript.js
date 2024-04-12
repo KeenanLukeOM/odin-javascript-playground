@@ -1,9 +1,34 @@
 "use strict";
 
-let myNumber = "74";
-myNumber += 3;
+const MAX = 57;
+let actual = MAX - 13;
+let percentage = actual / MAX
 
-typeof myNumber;
+console.log(percentage)
+
+// let a = 10;
+// let b = 7 * a;
+
+// console.log(b);
+
+// console.log((4+6+9) / 77)
+
+// console.log(1+4+6+7+8+23)
+
+// console.log(23 + 97)
+
+////////
+
+// let x = 250 % 251
+
+// alert (x)
+
+////////
+
+// let myNumber = "74";
+// myNumber += 3;
+
+// typeof myNumber;
 
 ////////
 
