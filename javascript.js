@@ -1,10 +1,20 @@
 "use strict";
 
-const MAX = 57;
-let actual = MAX - 13;
-let percentage = actual / MAX
+const string = "The revolution will not be televised.";
+console.log(string);
 
-console.log(percentage)
+const badString1 = This is a test;
+const badString2 = 'This is a test;
+const badString3 = This is a test';
+
+console.log(badString1, badString2, badString3);
+
+
+// const MAX = 57;
+// let actual = MAX - 13;
+// let percentage = actual / MAX
+
+// console.log(percentage)
 
 // let a = 10;
 // let b = 7 * a;
