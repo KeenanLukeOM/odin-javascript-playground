@@ -1,13 +1,30 @@
 "use strict";
 
-const song = "The Best Days";
-const score = 99;
-const highestScore = 100;
-const output = `I like the song ${song}. I gave it a score of ${
-  (score / highestScore) * 100
-}%.`;
+let greeting;
+let hour = 2;
 
-console.log(output);
+if (hour < 18) {
+    greeting = "Good day";
+  } else {
+    greeting = "Good evening";
+  }
+
+alert(greeting)
+
+// alert( undefined > 0 ); // false (1)
+// alert( undefined < 0 ); // false (2)
+// alert( undefined == 0 ); // false (3)
+
+// const badQuotes = "She said "I think so!""; // ERROR, can't double use quotes, use other option
+
+// const song = "The Best Days";
+// const score = 99;
+// const highestScore = 100;
+// const output = `I like the song ${song}. I gave it a score of ${
+//   (score / highestScore) * 100
+// }%.`;
+
+// console.log(output);
 
 // const name = "Keenan";
 // const greeting = `Hello, ${name}`;
