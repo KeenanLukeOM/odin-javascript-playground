@@ -1,15 +1,22 @@
 "use strict";
 
-let greeting;
-let hour = 2;
+alert( true || true );   // true
+alert( false || true );  // true
+alert( true || false );  // true
+alert( false || false ); // false
 
-if (hour < 18) {
-    greeting = "Good day";
-  } else {
-    greeting = "Good evening";
-  }
+// let greeting;
+// let hour = 2;
 
-alert(greeting)
+// if (hour < 18) {
+//     greeting = "Good day";
+//   } else if (hour < 20) {
+//     greeting = "Good evening";
+//   } else {
+//     greeting = "Nighty night";
+// }
+
+// alert(greeting)
 
 // alert( undefined > 0 ); // false (1)
 // alert( undefined < 0 ); // false (2)
