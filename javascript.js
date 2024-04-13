@@ -1,13 +1,21 @@
 "use strict";
 
-alert( !true ); // false
-alert( !0 ); // true
+let age = 11;
 
-alert( !!"non-empty string" ); // true
-alert( !!null ); // false
+if (age >= 14 && age <= 90) {
+    alert("You are in the range!")
+} else {
+    alert("You are not in the range")
+}
 
-alert( Boolean("non-empty string") ); // true
-alert( Boolean(null) ); // false
+// alert( !true ); // false
+// alert( !0 ); // true
+
+// alert( !!"non-empty string" ); // true
+// alert( !!null ); // false
+
+// alert( Boolean("non-empty string") ); // true
+// alert( Boolean(null) ); // false
 
 // && Finds the first falsy value
 
