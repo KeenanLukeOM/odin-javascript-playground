@@ -1,9 +1,24 @@
 "use strict";
 
-alert( true || true );   // true
-alert( false || true );  // true
-alert( true || false );  // true
-alert( false || false ); // false
+alert( true && true );   // true
+alert( false && true );  // false
+alert( true && false );  // false
+alert( false && false ); // false
+
+// true || alert("not printed");
+// false || alert("printed");
+
+// let hour = 12;
+// let isWeekend = true;
+
+// if (hour < 10 || hour > 18 || isWeekend) { // Finds the first truthy value
+//   alert( 'The office is closed.' ); // it is the weekend
+// }
+
+// alert( true || true );   // true
+// alert( false || true );  // true
+// alert( true || false );  // true
+// alert( false || false ); // false
 
 // let greeting;
 // let hour = 2;
