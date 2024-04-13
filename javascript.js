@@ -1,14 +1,49 @@
 "use strict";
 
-const string = "The revolution will not be televised.";
-console.log(string);
+const song = "The Best Days";
+const score = 99;
+const highestScore = 100;
+const output = `I like the song ${song}. I gave it a score of ${
+  (score / highestScore) * 100
+}%.`;
 
-const badString1 = This is a test;
-const badString2 = 'This is a test;
-const badString3 = This is a test';
+console.log(output);
 
-console.log(badString1, badString2, badString3);
+// const name = "Keenan";
+// const greeting = `Hello, ${name}`;
 
+// console.log(greeting);
+
+// const one = "Hello, ";
+// const two = "how are you?";
+// const joined = `${one}${two}`;
+
+// console.log(joined);
+
+////
+
+// const single = 'Single quotes';
+// const double = "Double quotes";
+// const backtick = `Backtick`;
+
+// console.log(single);
+// console.log(double);
+// console.log(backtick);
+
+////
+
+// const string = "The revolution will not be televised.";
+// console.log(string);
+
+// const badString1 = This is a test;
+// const badString2 = 'This is a test;
+// const badString3 = This is a test';
+
+// console.log(badString1, badString2, badString3);
+
+/////////////////
+//// Numbers playground
+/////////////////
 
 // const MAX = 57;
 // let actual = MAX - 13;
