@@ -1,9 +1,20 @@
 "use strict";
 
-alert( true && true );   // true
-alert( false && true );  // false
-alert( true && false );  // false
-alert( false && false ); // false
+alert( !true ); // false
+alert( !0 ); // true
+
+alert( !!"non-empty string" ); // true
+alert( !!null ); // false
+
+alert( Boolean("non-empty string") ); // true
+alert( Boolean(null) ); // false
+
+// && Finds the first falsy value
+
+// alert( true && true );   // true
+// alert( false && true );  // false
+// alert( true && false );  // false
+// alert( false && false ); // false
 
 // true || alert("not printed");
 // false || alert("printed");
