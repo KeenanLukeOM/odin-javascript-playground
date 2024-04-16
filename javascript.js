@@ -1,14 +1,20 @@
 "use strict";
 
-function min(a, b) {
-    if (a > b) {
-        return a
-    } else {
-        return b
-    }
+function add7(number) {
+    return number + 7
 }
 
-console.log(min(18, 15))
+console.log(add7(7))
+
+// function min(a, b) {
+//     if (a > b) {
+//         return a
+//     } else {
+//         return b
+//     }
+// }
+
+// console.log(min(18, 15))
 
 // function checkAge(age) {
 //     if (age > 18) {
