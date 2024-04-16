@@ -1,10 +1,18 @@
 "use strict";
 
-function multiply(a, b) {
-    return a * b
+function capitaliize(lowercase) {
+    let firstLetter = lowercase.substring(0,1).toUpperCase()
+    let remainingLetters = lowercase.substr(1).toLowerCase()
+    return firstLetter + remainingLetters
 }
 
-console.log(multiply(3,10));
+console.log(capitaliize("hEy tHerE!"))
+
+// function multiply(a, b) {
+//     return a * b
+// }
+
+// console.log(multiply(3,10));
 
 // function add7(number) {
 //     return number + 7
