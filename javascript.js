@@ -1,12 +1,18 @@
 "use strict";
 
-function capitaliize(lowercase) {
-    let firstLetter = lowercase.substring(0,1).toUpperCase()
-    let remainingLetters = lowercase.substr(1).toLowerCase()
-    return firstLetter + remainingLetters
+function lastLetter(text) {
+    return text.substr(-1)
 }
 
-console.log(capitaliize("hEy tHerE!"))
+console.log(lastLetter("Hello"))
+
+// function capitaliize(lowercase) {
+//     let firstLetter = lowercase.substring(0,1).toUpperCase()
+//     let remainingLetters = lowercase.substr(1).toLowerCase()
+//     return firstLetter + remainingLetters
+// }
+
+// console.log(capitaliize("hEy tHerE!"))
 
 // function multiply(a, b) {
 //     return a * b
