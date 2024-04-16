@@ -1,12 +1,20 @@
 "use strict";
 
-let age = 11;
-
-if (age >= 14 && age <= 90) {
-    alert("You are in the range!")
-} else {
-    alert("You are not in the range")
+function favoriteAnimal(animal) {
+    return animal + " is my favorite animal!"
 }
+
+console.log(favoriteAnimal("Gecko"))
+
+// let age = 11;
+
+// if (age >= 14 && age <= 90) {
+//     alert("You are in the range!")
+// } else {
+//     alert("You are not in the range")
+// }
+
+// if (!(age >= 14 && age <= 90))
 
 // alert( !true ); // false
 // alert( !0 ); // true
