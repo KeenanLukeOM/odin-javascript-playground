@@ -1,10 +1,16 @@
 "use strict";
 
-function add7(number) {
-    return number + 7
+function multiply(a, b) {
+    return a * b
 }
 
-console.log(add7(7))
+console.log(multiply(3,10));
+
+// function add7(number) {
+//     return number + 7
+// }
+
+// console.log(add7(7))
 
 // function min(a, b) {
 //     if (a > b) {
