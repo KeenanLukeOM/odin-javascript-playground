@@ -1,9 +1,30 @@
 "use strict";
 
-const a = "Hello";
-const b = "World";
+const str1 = "Hello";
+const str2 = "World!";
+const message = str1.push(str2);
 
-console.log(c);
+// function helloWorld() {
+//     console.log "Hello World!"
+//   }
+
+// const a = 5;
+// const b = 10;
+
+// function add() {
+//   return c;
+// }
+
+// function print() {
+//   add();
+// }
+
+// print();
+
+// const a = "Hello";
+// const b = "World";
+
+// console.log(c);
 
 //////////////////
 // Understanding errors^^^
