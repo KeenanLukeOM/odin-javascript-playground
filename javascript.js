@@ -1,10 +1,30 @@
 "use strict";
 
-function favoriteAnimal(animal) {
-    return animal + " is my favorite animal!"
-}
+// function checkAge(age) {
+//     if (age > 18) {
+//       return true;
+//     } else {
+//       return confirm('Did parents allow you?');
+//     }
+//   }
 
-console.log(favoriteAnimal("Gecko"))
+// function checkAge(age) {
+//     return (age > 18) ? true : confirm('Did parents allow you?')
+// }
+
+// function checkAge(age) {
+//     return (age > 18) || confirm('Did parents allow you?') // Truthy implied by code stopping
+// }
+
+
+// console.log(checkAge(19))
+
+
+// function favoriteAnimal(animal) {
+//     return animal + " is my favorite animal!"
+// }
+
+// console.log(favoriteAnimal("Gecko"))
 
 // let age = 11;
 
