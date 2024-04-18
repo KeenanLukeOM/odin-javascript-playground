@@ -1,8 +1,42 @@
 "use strict";
 
-const str1 = "Hello";
-const str2 = "World!";
-const message = str1.push(str2);
+const container = document.querySelector("#container")
+
+const redText = document.createElement("p")
+redText.classList.add('redText')
+redText.style.color = "red"
+redText.textContent = "Hi, i'm red!"
+
+container.appendChild(redText)
+
+const blueHeaderThree = document.createElement("h3")
+blueHeaderThree.classList.add('blueHeaderThree')
+blueHeaderThree.style.color = "blue"
+blueHeaderThree.textContent = "I'm a blue h3!"
+
+container.appendChild(blueHeaderThree)
+
+const borderDiv = document.createElement("div")
+borderDiv.classList.add('borderDiv')
+borderDiv.style.borderColor = "black"
+borderDiv.style.backgroundColor = "pink"
+
+const headerInDiv = document.createElement("h1")
+headerInDiv.classList.add('headerInDiv')
+headerInDiv.textContent = "I'm in a div!"
+
+const paraInDiv = document.createElement("p")
+paraInDiv.classList.add('paraInDiv')
+paraInDiv.textContent = "ME TOO!"
+
+borderDiv.appendChild(headerInDiv)
+borderDiv.appendChild(paraInDiv)
+
+container.appendChild(borderDiv)
+
+// const str1 = "Hello";
+// const str2 = "World!";
+// const message = str1.push(str2);
 
 // function helloWorld() {
 //     console.log "Hello World!"
