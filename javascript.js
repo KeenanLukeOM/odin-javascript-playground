@@ -34,6 +34,11 @@ borderDiv.appendChild(paraInDiv)
 
 container.appendChild(borderDiv)
 
+// BUTTON
+
+const btn = document.querySelector("#btn")
+btn.onclick = () => alert("Hello World")
+
 // const str1 = "Hello";
 // const str2 = "World!";
 // const message = str1.push(str2);
